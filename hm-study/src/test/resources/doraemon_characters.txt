@@ -1,0 +1,6 @@
+id,name,avatar
+1,Doraemon,https://upload.wikimedia.org/wikipedia/vi/b/b7/Doraemon1.jpg
+2,Nobi Nobita,https://upload.wikimedia.org/wikipedia/vi/2/2c/Nobita.png
+3,Minamoto Shizuka,https://upload.wikimedia.org/wikipedia/vi/thumb/3/3e/Shizuka.png/240px-Shizuka.png
+4,Jaian,https://upload.wikimedia.org/wikipedia/vi/thumb/d/de/Jaian.png/240px-Jaian.png
+5,Honekawa Suneo,https://upload.wikimedia.org/wikipedia/vi/thumb/b/ba/Suneo.png/240px-Suneo.png

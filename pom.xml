@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>hm-share</module>
+        <module>hm-study</module>
+        <module>spring-redis</module>
+        <module>design-pattern</module>
+        <module>spring-core</module>
+        <module>spring-mvc</module>
+        <module>spring-rabbitmq</module>
+        <module>reactor-rabbitmq</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>com.spl.hm</groupId>
+    <artifactId>spring-boot-learn</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>spring-boot-learn</name>
+    <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+
+    <properties>
+        <java.version>11</java.version>
+        <encoding>UTF-8</encoding>
+    </properties>
+
+    <dependencies>
+<!--    springboot-starter-web mặc định cung cấp các thư viện để phát triển ứng dụng Spring MVC như REST, spring-webmvc, jackson-json, validation-api and tomcat.
+        Từ khi thêm spring-boot-starter-web thì spring-boot-starter-tomcat đã được thêm tự động và khi run method main()
+        thì nó sẽ start tomcat được nhúng bên trong nên chúng ta không cần deploy ứng dụng lên bất kì server nào. -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+<!--	spring-boot-configuration-processor is an annotation processor that generates metadata about classes in your application that are annotated with @ConfigurationProperties.
+		This metadata is used by your IDE (Eclipse, IntelliJ, or NetBeans) to provide auto-completion and documentation for the properties
+		when editing application.properties and application.yaml files. -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+<!--    Spring Boot starter can be used to automatically include Spring Test, JUnit, Hamcrest, and Mockito libraries in the following way: -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+<!--    Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object.
+        Gson can work with arbitrary Java objects including pre-existing objects that you do not have source-code of. -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+
+<!--    Jackson is a solid and mature JSON serialization/deserialization library for Java.
+        Jackson JSON Parser API provides easy way to convert JSON to POJO Object and supports easy conversion to Map from JSON data.
+        Jackson supports generics too and directly converts them from JSON to object.
+        Jackson là một thư viện dùng để thao tác với các dữ liệu liên quan tới JSON trong Java.
+        Sử dụng Jackson-databind mapping Object <-> Json và ứng dụng load file com.springbootcaching.hm.config. -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.10.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.10.3</version>
+        </dependency>
+
+<!--    A simple Java toolkit for JSON. You can use JSON, simple to encode or decode JSON data. -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+<!--        Use zt-zip library for unzipping data-->
+        <dependency>
+            <groupId>org.zeroturnaround</groupId>
+            <artifactId>zt-zip</artifactId>
+            <version>1.14</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<!--        Spice up your java: Automatic Resource Management, automatic generation of getters, setters, equals, hashCode and toString, and more!-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-amqp -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+            <version>2.6.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.4</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

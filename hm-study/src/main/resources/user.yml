@@ -1,0 +1,30 @@
+user-info:
+  users:
+    - id: 1
+      name: Hoih My
+      email: hoihmy2712@gmail.com
+      title: Software Engineer
+      techs:
+        - Java
+        - Spring
+        - HTML
+        - CSS
+        - JavaScript
+        - ReactJS
+        - Angular
+        - PostgreSQL
+        - MySQL
+        - Redis
+        - RabbitMQ
+    - id: 2
+      name: Alan
+      email: alan.dev@gmail.com
+      title: Front-end Developer
+      techs:
+        - HTML
+        - CSS
+        - JavaScript
+        - VueJS
+        - ReactJS
+        - MySQL
+        - FireBase

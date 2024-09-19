@@ -1,0 +1,9 @@
+type,language,country
+backend,Java,USA
+backend,Golang,USA
+backend,Ruby,Japan
+backend,Python,Netherlands
+backend,C++,Denmark
+frontend,JavaScript,USA
+mobile,Kotlin,Russia
+mobile,Swift,USA

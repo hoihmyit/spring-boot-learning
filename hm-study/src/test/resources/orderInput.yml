@@ -1,0 +1,11 @@
+# Order information
+orderNo: A001
+date: 2021-01-22
+customerName: Customer, Joker
+orderLines:
+  - item: No. 9 Sprockets
+    quantity: 12
+    unitPrice: 2.5
+  - item: Widget (10mm)
+    quantity: 4
+    unitPrice: 3.2

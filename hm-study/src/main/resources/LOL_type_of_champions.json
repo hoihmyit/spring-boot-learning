@@ -1,0 +1,592 @@
+[
+  {
+    "champion": "Yasuo",
+    "fullName": "Yasuo the Unforgiven",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/3/39/Yasuo_OriginalSkin.jpg/revision/latest?cb=20181021032917",
+    "skins": [
+      {
+        "title": "High Noon Yasuo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Yasuo_HighNoonSkin.jpg/revision/latest?cb=20181021104058"
+      },
+      {
+        "title": "Blood Moon Yasuo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/e/e8/Yasuo_BloodMoonSkin.jpg/revision/latest?cb=20181021191956"
+      },
+      {
+        "title": "Odyssey Yasuo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a5/Yasuo_OdysseySkin.jpg/revision/latest?cb=20180911021123"
+      },
+      {
+        "title": "True Damage Yasuo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0e/Yasuo_TrueDamageSkin.jpg/revision/latest?cb=20191030034050"
+      },
+      {
+        "title": "Spirit Blossom Yasuo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/3/36/Yasuo_SpiritBlossomSkin.jpg/revision/latest?cb=20200707201920"
+      }
+    ],
+    "classes": [
+      "Skirmisher"
+    ],
+    "positions": [
+      "Top",
+      "Middle",
+      "Bottom"
+    ],
+    "resource": "Flow",
+    "rangeType": "Melee",
+    "adaptiveType": "Physical",
+    "abilities": {
+      "innate": "Way of the Wanderer",
+      "keyQ": [
+        "Steel Tempest",
+        "Gathering Storm"
+      ],
+      "keyW": [
+        "Wind Wall"
+      ],
+      "keyE": [
+        "Sweeping Blade"
+      ],
+      "keyR": [
+        "Last Breath"
+      ]
+    }
+  },
+  {
+    "champion": "Lee Sin",
+    "fullName": "Lee Sin the Blind Monk",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1b/Lee_Sin_OriginalSkin.jpg/revision/latest?cb=20181021104539",
+    "skins": [
+      {
+        "title": "Dragon Fist Lee Sin",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7c/Lee_Sin_DragonFistSkin.jpg/revision/latest?cb=20181021122513"
+      },
+      {
+        "title": "Pool Party Lee Sin",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3b/Lee_Sin_PoolPartySkin.jpg/revision/latest?cb=20181021044926"
+      },
+      {
+        "title": "God Fist Lee Sin",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/5/55/Lee_Sin_GodFistSkin.jpg/revision/latest?cb=20181021081908"
+      },
+      {
+        "title": "Nightbringer Lee Sin",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/a/a5/Lee_Sin_NightbringerSkin.jpg/revision/latest?cb=20191126043915"
+      },
+      {
+        "title": "Storm Dragon Lee Sin",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/5/55/Lee_Sin_StormDragonSkin.jpg/revision/latest?cb=20200917213435"
+      }
+    ],
+    "classes": [
+      "Diver"
+    ],
+    "positions": [
+      "Jungle"
+    ],
+    "resource": "Energy",
+    "rangeType": "Melee",
+    "adaptiveType": "Physical",
+    "abilities": {
+      "innate": "Flurry",
+      "keyQ": [
+        "Sonic Wave",
+        "Resonating Strike"
+      ],
+      "keyW": [
+        "Safeguard",
+        "Iron Will"
+      ],
+      "keyE": [
+        "Tempest",
+        "Cripple"
+      ],
+      "keyR": [
+        "Dragon's Rage"
+      ]
+    }
+  },
+  {
+    "champion": "Wukong",
+    "fullName": "Wukong the Monkey King",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/4/48/Wukong_OriginalSkin.jpg/revision/latest?cb=20181021060656",
+    "skins": [
+      {
+        "title": "Volcanic Wukong",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/5/50/Wukong_VolcanicSkin.jpg/revision/latest?cb=20181021024911"
+      },
+      {
+        "title": "Jade Dragon Wukong",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9f/Wukong_JadeDragonSkin.jpg/revision/latest?cb=20181021044535"
+      },
+      {
+        "title": "Radiant Wukong",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Wukong_RadiantSkin.jpg/revision/latest?cb=20181021024629"
+      },
+      {
+        "title": "Lancer Stratus Wukong",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/2/27/Wukong_LancerStratusSkin.jpg/revision/latest?cb=20181021054512"
+      },
+      {
+        "title": "Underworld Wukong",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3f/Wukong_UnderworldSkin.jpg/revision/latest?cb=20181021102057"
+      }
+    ],
+    "classes": [
+      "Diver"
+    ],
+    "positions": [
+      "Top",
+      "Jungle"
+    ],
+    "resource": "Mana",
+    "rangeType": "Melee",
+    "adaptiveType": "Physical",
+    "abilities": {
+      "innate": "Stone Skin",
+      "keyQ": [
+        "Crushing Blow"
+      ],
+      "keyW": [
+        "Warrior Trickster"
+      ],
+      "keyE": [
+        "Nimbus Strike"
+      ],
+      "keyR": [
+        "Cyclone"
+      ]
+    }
+  },
+  {
+    "champion": "Yuumi",
+    "fullName": "Yuumi the Magical Cat",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/9/9b/Yuumi_OriginalSkin.jpg/revision/latest?cb=20190430193606",
+    "skins": [
+      {
+        "title": "Battle Principal Yuumi",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3d/Yuumi_BattlePrincipalSkin.jpg/revision/latest?cb=20190430214838"
+      },
+      {
+        "title": "Heartseeker Yuumi",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/3/33/Yuumi_HeartseekerSkin.jpg/revision/latest?cb=20200123005349"
+      }
+    ],
+    "classes": [
+      "Enchanter"
+    ],
+    "positions": [
+      "Support"
+    ],
+    "resource": "Mana",
+    "rangeType": "Ranged",
+    "adaptiveType": "Magic",
+    "abilities": {
+      "innate": "Bop 'n' Block",
+      "keyQ": [
+        "Prowling Projectile"
+      ],
+      "keyW": [
+        "You and Me!"
+      ],
+      "keyE": [
+        "Zoomies"
+      ],
+      "keyR": [
+        "Final Chapter"
+      ]
+    }
+  },
+  {
+    "champion": "Zed",
+    "fullName": "Zed the Master of Shadows",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/b/b4/Zed_OriginalSkin.jpg/revision/latest?cb=20181021050416",
+    "skins": [
+      {
+        "title": "Shockblade Zed",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f2/Zed_ShockbladeSkin.jpg/revision/latest?cb=20181021051002"
+      },
+      {
+        "title": "PROJECT: Zed",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/5/59/Zed_PROJECTSkin.jpg/revision/latest?cb=20181021025307"
+      },
+      {
+        "title": "Galaxy Slayer Zed",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/6f/Zed_GalaxySlayerSkin.jpg/revision/latest?cb=20190402195050"
+      },
+      {
+        "title": "PsyOps Zed",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/a/ab/Zed_PsyOpsSkin.jpg/revision/latest?cb=20200901190435"
+      }
+    ],
+    "classes": [
+      "Assassin"
+    ],
+    "positions": [
+      "Middle"
+    ],
+    "resource": "Energy",
+    "rangeType": "Melee",
+    "adaptiveType": "Physical",
+    "abilities": {
+      "innate": "Contempt for the Weak",
+      "keyQ": [
+        "Razor Shuriken"
+      ],
+      "keyW": [
+        "Living Shadow"
+      ],
+      "keyE": [
+        "Shadow Slash"
+      ],
+      "keyR": [
+        "Death Mark"
+      ]
+    }
+  },
+  {
+    "champion": "Ezreal",
+    "fullName": "Ezreal the Prodigal Explorer",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/2/25/Ezreal_OriginalSkin.jpg/revision/latest?cb=20180925192611",
+    "skins": [
+      {
+        "title": "Debonair Ezreal",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/7/7e/Ezreal_DebonairSkin.jpg/revision/latest?cb=20180926204724"
+      },
+      {
+        "title": "Ace of Spades Ezreal",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/b/b9/Ezreal_AceofSpadesSkin.jpg/revision/latest?cb=20190530131539"
+      },
+      {
+        "title": "Star Guardian Ezreal",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/4/42/Ezreal_StarGuardianSkin.jpg/revision/latest?cb=20181021025226"
+      },
+      {
+        "title": "Battle Academia Ezreal",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/8/86/Ezreal_BattleAcademiaSkin.jpg/revision/latest?cb=20190430195909"
+      },
+      {
+        "title": "PsyOps Ezreal",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/0/0b/Ezreal_PsyOpsSkin.jpg/revision/latest?cb=20200818223248"
+      }
+    ],
+    "classes": [
+      "Marksman"
+    ],
+    "positions": [
+      "Bottom"
+    ],
+    "resource": "Mana",
+    "rangeType": "Ranged",
+    "adaptiveType": "Physical",
+    "abilities": {
+      "innate": "Rising Spell Force",
+      "keyQ": [
+        "Mystic Shot"
+      ],
+      "keyW": [
+        "Essence Flux"
+      ],
+      "keyE": [
+        "Arcane Shift"
+      ],
+      "keyR": [
+        "Trueshot Barrage"
+      ]
+    }
+  },
+  {
+    "champion": "Teemo",
+    "fullName": "Teemo the Swift Scout",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/3/3b/Teemo_OriginalSkin.jpg/revision/latest?cb=20181021055924",
+    "skins": [
+      {
+        "title": "Super Teemo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/d/d2/Teemo_SuperSkin.jpg/revision/latest?cb=20181021103231"
+      },
+      {
+        "title": "Panda Teemo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/d/d5/Teemo_PandaSkin.jpg/revision/latest?cb=20181021074146"
+      },
+      {
+        "title": "Omega Squad Teemo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/4/46/Teemo_OmegaSquadSkin.jpg/revision/latest?cb=20181021071035"
+      },
+      {
+        "title": "Beemo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c1/Teemo_BeemoSkin.jpg/revision/latest?cb=20181021035835"
+      },
+      {
+        "title": "Spirit Blossom Teemo",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/62/Teemo_SpiritBlossomSkin.jpg/revision/latest?cb=20200707202018"
+      }
+    ],
+    "classes": [
+      "Specialist"
+    ],
+    "positions": [
+      "Top"
+    ],
+    "resource": "Mana",
+    "rangeType": "Ranged",
+    "adaptiveType": "Magic",
+    "abilities": {
+      "innate": "Guerrilla Warfare",
+      "keyQ": [
+        "Blinding Dart"
+      ],
+      "keyW": [
+        "Move Quick"
+      ],
+      "keyE": [
+        "Toxic Shot"
+      ],
+      "keyR": [
+        "Noxious Trap"
+      ]
+    }
+  },
+  {
+    "champion": "Nasus",
+    "fullName": "Nasus the Curator of the Sands",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/8/86/Nasus_OriginalSkin.jpg/revision/latest?cb=20181021060311",
+    "skins": [
+      {
+        "title": "Galactic Nasus",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/8/8b/Nasus_GalacticSkin.jpg/revision/latest?cb=20181021200650"
+      },
+      {
+        "title": "Pharaoh Nasus",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f1/Nasus_PharaohSkin.jpg/revision/latest?cb=20181021105016"
+      },
+      {
+        "title": "Infernal Nasus",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/5/52/Nasus_InfernalSkin.jpg/revision/latest?cb=20181021065625"
+      },
+      {
+        "title": "Worldbreaker Nasus",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/d/d1/Nasus_WorldbreakerSkin.jpg/revision/latest?cb=20181021024500"
+      },
+      {
+        "title": "Battlecast Nasus",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/1/18/Nasus_BattlecastSkin.jpg/revision/latest?cb=20201028215549"
+      }
+    ],
+    "classes": [
+      "Juggernaut"
+    ],
+    "positions": [
+      "Top"
+    ],
+    "resource": "Mana",
+    "rangeType": "Melee",
+    "adaptiveType": "Physical",
+    "abilities": {
+      "innate": "Soul Eater",
+      "keyQ": [
+        "Siphoning Strike"
+      ],
+      "keyW": [
+        "Wither"
+      ],
+      "keyE": [
+        "Spirit Fire"
+      ],
+      "keyR": [
+        "Fury of the Sands"
+      ]
+    }
+  },
+  {
+    "champion": "Ornn",
+    "fullName": "Ornn the Fire below the Mountain",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/d/df/Ornn_OriginalSkin.jpg/revision/latest?cb=20181021072714",
+    "skins": [
+      {
+        "title": "Thunder Lord Ornn",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/d/d5/Ornn_ThunderLordSkin.jpg/revision/latest?cb=20181021044318"
+      }
+    ],
+    "classes": [
+      "Vanguard"
+    ],
+    "positions": [
+      "Top"
+    ],
+    "resource": "Mana",
+    "rangeType": "Melee",
+    "adaptiveType": "Physical",
+    "abilities": {
+      "innate": "Living Forge",
+      "keyQ": [
+        "Volcanic Rupture"
+      ],
+      "keyW": [
+        "Bellows Breath"
+      ],
+      "keyE": [
+        "Searing Charge"
+      ],
+      "keyR": [
+        "Call of the Forge God"
+      ]
+    }
+  },
+  {
+    "champion": "Veigar",
+    "fullName": "Veigar the Tiny Master of Evil",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/8/89/Veigar_OriginalSkin.jpg/revision/latest?cb=20181021053947",
+    "skins": [
+      {
+        "title": "White Mage Veigar",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/4/49/Veigar_WhiteMageSkin.jpg/revision/latest?cb=20181021033951"
+      },
+      {
+        "title": "Final Boss Veigar",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/e/ec/Veigar_FinalBossSkin.jpg/revision/latest?cb=20181021071858"
+      },
+      {
+        "title": "Omega Squad Veigar",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/8/84/Veigar_OmegaSquadSkin.jpg/revision/latest?cb=20181021030613"
+      },
+      {
+        "title": "Elderwood Veigar",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/f/f8/Veigar_ElderwoodSkin.jpg/revision/latest?cb=20190813232853"
+      },
+      {
+        "title": "Furyhorn Cosplay Veigar",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Veigar_FuryhornCosplaySkin.jpg/revision/latest?cb=20200323175831"
+      }
+    ],
+    "classes": [
+      "Burst"
+    ],
+    "positions": [
+      "Middle"
+    ],
+    "resource": "Mana",
+    "rangeType": "Ranged",
+    "adaptiveType": "Magic",
+    "abilities": {
+      "innate": "Phenomenal Evil Power",
+      "keyQ": [
+        "Baleful Strike"
+      ],
+      "keyW": [
+        "Dark Matter"
+      ],
+      "keyE": [
+        "Event Horizon"
+      ],
+      "keyR": [
+        "Primordial Burst"
+      ]
+    }
+  },
+  {
+    "champion": "Jhin",
+    "fullName": "Jhin the Virtuoso",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/5/52/Jhin_OriginalSkin.jpg/revision/latest?cb=20181021095701",
+    "skins": [
+      {
+        "title": "High Noon Jhin",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/0/02/Jhin_HighNoonSkin.jpg/revision/latest?cb=20181021024937"
+      },
+      {
+        "title": "Blood Moon Jhin",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Jhin_BloodMoonSkin.jpg/revision/latest?cb=20181021074205"
+      },
+      {
+        "title": "PROJECT: Jhin",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/a/ab/Jhin_PROJECTSkin.jpg/revision/latest?cb=20181021061227"
+      },
+      {
+        "title": "Dark Cosmic Jhin",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/5/5c/Jhin_DarkCosmicSkin.jpg/revision/latest?cb=20190529195929"
+      }
+    ],
+    "classes": [
+      "Marksman",
+      "Catcher"
+    ],
+    "positions": [
+      "Bottom"
+    ],
+    "resource": "Mana",
+    "rangeType": "Ranged",
+    "adaptiveType": "Physical",
+    "abilities": {
+      "innate": "Basic Attack",
+      "keyQ": [
+        "Whisper"
+      ],
+      "keyW": [
+        "Dancing Grenade"
+      ],
+      "keyE": [
+        "Captive Audience"
+      ],
+      "keyR": [
+        "Curtain Call"
+      ]
+    }
+  },
+  {
+    "champion": "Lux",
+    "fullName": "Lux the Lady of Luminosity",
+    "avatar": "https://static.wikia.nocookie.net/leagueoflegends/images/b/ba/Lux_OriginalCentered.jpg/revision/latest?cb=20180414203358",
+    "skins": [
+      {
+        "title": "Commando Lux",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/69/Lux_CommandoSkin.jpg/revision/latest?cb=20181021083651"
+      },
+      {
+        "title": "Spellthief Lux",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/b/be/Lux_SpellthiefSkin.jpg/revision/latest?cb=20181021030440"
+      },
+      {
+        "title": "Star Guardian Lux",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/3/31/Lux_StarGuardianSkin.jpg/revision/latest?cb=20181021025246"
+      },
+      {
+        "title": "Elementalist Lux",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/2/25/Lux_ElementalistSkin.jpg/revision/latest?cb=20181021021002"
+      },
+      {
+        "title": "Battle Academia Lux",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/2/2a/Lux_BattleAcademiaSkin.jpg/revision/latest?cb=20190430200022"
+      },
+      {
+        "title": "Cosmic Lux",
+        "image": "https://static.wikia.nocookie.net/leagueoflegends/images/a/aa/Lux_CosmicSkin.jpg/revision/latest?cb=20200303232220"
+      }
+    ],
+    "classes": [
+      "Burst",
+      "Artillery"
+    ],
+    "positions": [
+      "Middle",
+      "Support"
+    ],
+    "resource": "Mana",
+    "rangeType": "Ranged",
+    "adaptiveType": "Magic",
+    "abilities": {
+      "innate": "Illumination",
+      "keyQ": [
+        "Light Binding"
+      ],
+      "keyW": [
+        "Prismatic Barrier"
+      ],
+      "keyE": [
+        "Lucent Singularity"
+      ],
+      "keyR": [
+        "Final Spark"
+      ]
+    }
+  }
+]
