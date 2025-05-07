@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mysqldb:
+    image: mysql:8.0
+    container_name: SpringBootFlywayDemoDB
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: sbfl@123
+      MYSQL_DATABASE: sbflDB
+    restart: unless-stopped
