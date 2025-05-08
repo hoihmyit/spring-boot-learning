@@ -18,9 +18,19 @@ public class MyController {
     @GetMapping("/home")
     public String home(Model model, @AuthenticationPrincipal OAuth2User oAuth2User) {
         System.out.println(oAuth2User.getAttributes());
-        model.addAttribute("user", oAuth2User.getAttribute("login"));
-        model.addAttribute("profileLink", oAuth2User.getAttribute("html_url"));
-        model.addAttribute("repos", oAuth2User.getAttribute("repos_url"));
+
+        String githubUserLoggedIn = oAuth2User.getAttribute("login");
+        if (githubUserLoggedIn != null) {
+            model.addAttribute("isGitHubLoggedIn", true);
+            model.addAttribute("user", githubUserLoggedIn);
+            model.addAttribute("profileLink", oAuth2User.getAttribute("html_url"));
+            model.addAttribute("repos", oAuth2User.getAttribute("repos_url"));
+        } else {
+            model.addAttribute("isGoogleLoggedIn", true);
+            model.addAttribute("user", oAuth2User.getAttribute("name"));
+            model.addAttribute("email", oAuth2User.getAttribute("email"));
+            model.addAttribute("avatar", oAuth2User.getAttribute("picture"));
+        }
         return "home";
     }
 

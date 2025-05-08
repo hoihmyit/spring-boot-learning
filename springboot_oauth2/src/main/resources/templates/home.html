@@ -10,11 +10,27 @@
 <body>
 <div class="container">
     <h1>Welcome to the Home Page!</h1>
-    <p>You have successfully logged in.</p>
-    <p><strong>User:</strong> <span th:text="${user}"></span></p>
-    <p><strong>Profile Link:</strong> <a th:href="${profileLink}">Access Profile</a></p>
-    <p><strong>Repositories:</strong> <span th:text="${repos}"></span></p>
-    <a href="/logout" class="btn btn-danger">Logout</a>
+
+    <!-- When GitHub login is successful -->
+    <div th:if="${isGitHubLoggedIn}">
+        <p>You have successfully logged in via GitHub.</p>
+        <p><strong>User:</strong> <span th:text="${user}"></span></p>
+        <p><strong>Profile Link:</strong> <a th:href="${profileLink}">Access Profile</a></p>
+        <p><strong>Repositories:</strong> <span th:text="${repos}"></span></p>
+    </div>
+
+    <!-- When Google login is successful -->
+    <div th:if="${isGoogleLoggedIn}">
+        <p>You have successfully logged in via Google.</p>
+        <p><strong>User:</strong> <span th:text="${user}"></span></p>
+        <p><strong>Email:</strong> <span th:text="${email}"></span></p>
+        <p><strong>Avatar:</strong></p>
+        <img th:src="${avatar}" alt="User Avatar" class="img-thumbnail" style="max-width: 150px;"/>
+    </div>
+
+    <div class="mt-3">
+        <a href="/logout" class="btn btn-danger">Logout</a>
+    </div>
 </div>
 </body>
 </html>
