@@ -85,7 +85,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
-            <version>2.10.3</version>
+            <version>2.18.3</version>
         </dependency>
 
 <!--    A simple Java toolkit for JSON. You can use JSON, simple to encode or decode JSON data. -->
