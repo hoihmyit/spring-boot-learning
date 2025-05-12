@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <!-- Appenders define how logs will be written -->
+  <Appenders>
+    <!-- Console Appender: Logs to the console -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level: %msg%n" />
+    </Console>
+
+    <!-- File Appender: Logs to a file -->
+    <File name="File" fileName="logs/app.log">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level: %msg%n" />
+    </File>
+  </Appenders>
+
+  <!-- Loggers define which loggers to use -->
+  <Loggers>
+    <!-- Root logger with info level and appender configuration -->
+    <Root level="info">
+      <AppenderRef ref="Console" />
+      <AppenderRef ref="File" />
+    </Root>
+
+    <!-- Additional logger settings can be added here -->
+    <Logger name="org.springframework" level="warn" additivity="false">
+      <AppenderRef ref="Console" />
+    </Logger>
+  </Loggers>
+</Configuration>
