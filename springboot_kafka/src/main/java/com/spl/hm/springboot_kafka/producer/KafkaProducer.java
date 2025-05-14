@@ -18,8 +18,8 @@ public class KafkaProducer {
     @Value("${spring.kafka.topic.dlt-name}")
     private String dltTopicName;
 
-    @Value("${spring.kafka.max-retry}")
-    private int maxRetry;
+    @Value("${spring.kafka.producer.max-retries}")
+    private int maxRetries;
 
     private final KafkaTemplate<String, UserMessage> kafkaTemplate;
 
@@ -32,7 +32,7 @@ public class KafkaProducer {
         boolean success = false;
         String key = String.valueOf(userMessage.getId());
 
-        while (attempts < maxRetry && !success) {
+        while (attempts < maxRetries && !success) {
             try {
                 kafkaTemplate.send(topicName, key, userMessage).get(); // block until ack
                 log.info("Sent msg successful to topic: {}, key: {}, value: {}", topicName, key, userMessage);
@@ -41,8 +41,8 @@ public class KafkaProducer {
             } catch (Exception e) {
                 attempts++;
                 log.error("Kafka send failed (attempt {}): {}", attempts, e.getMessage());
-                if (attempts == maxRetry) {
-                    log.error("Giving up after {} attempts!", maxRetry);
+                if (attempts == maxRetries) {
+                    log.error("Giving up after {} attempts!", maxRetries);
                     // send to DLT topic
                     try {
                         kafkaTemplate.send(dltTopicName, userMessage).get();
