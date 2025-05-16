@@ -48,7 +48,7 @@
         <dependency>
             <groupId>net.javacrumbs.shedlock</groupId>
             <artifactId>shedlock-spring</artifactId>
-            <version>4.24.0</version>
+            <version>4.48.0</version>
         </dependency>
 
 <!--        Shedlock Provider Redis Spring-->
