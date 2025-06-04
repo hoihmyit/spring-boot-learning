@@ -7,7 +7,6 @@
         <module>hm-study</module>
         <module>spring-redis</module>
         <module>design-pattern</module>
-        <module>spring-core</module>
         <module>spring-mvc</module>
         <module>spring-rabbitmq</module>
         <module>reactor-rabbitmq</module>
